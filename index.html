@@ -152,7 +152,7 @@
                 <div class="w-[240px] md:w-[260px] bg-white p-[8px] border border-gray-100 shadow-sm cursor-none transition-all duration-500 hover:-translate-y-1">
                     <div class="relative w-full h-[320px] md:h-[350px] overflow-hidden bg-[#f0f0f0] border border-gray-100">
                         <!-- 高级照片相框式排版 (无Blur，Hover放大并出现内框) -->
-                        <img src="c9994bf2727e99b69ef15e0af694ec2d_5.jpeg" alt="Zhao Profile" class="w-full h-full object-cover transition-transform duration-700 ease-out transform-gpu group-hover:scale-[1.04]">
+                        <img src="1.jpg" alt="Zhao Profile" class="w-full h-full object-cover transition-transform duration-700 ease-out transform-gpu group-hover:scale-[1.04]">
                         <!-- 悬停时出现的内部画框边线 -->
                         <div class="absolute inset-0 border-[6px] border-white/0 transition-all duration-500 pointer-events-none group-hover:border-white/90"></div>
                         <div class="absolute inset-[6px] border border-gray-900/0 transition-all duration-500 pointer-events-none group-hover:border-gray-900/10"></div>
@@ -765,7 +765,7 @@
                     <!-- 1. 海报展示 -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                         <div class="bg-[#f8f9fa] rounded-3xl p-8 flex items-center justify-center hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] transition-shadow">
-                            <img src="3ddff504d950a17bfed25858e8ca64f4.jpg" alt="SSAPA Poster 1" class="w-full max-w-[360px] h-auto object-contain shadow-lg" onerror="this.src='https://placehold.co/400x560/e2e8f0/64748b?text=Poster+1'">
+                            <img src="2.png" alt="SSAPA Poster 1" class="w-full max-w-[360px] h-auto object-contain shadow-lg" onerror="this.src='https://placehold.co/400x560/e2e8f0/64748b?text=Poster+1'">
                         </div>
                         <div class="bg-[#f8f9fa] rounded-3xl p-8 flex items-center justify-center hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] transition-shadow">
                             <img src="3.png" alt="SSAPA Poster 2" class="w-full max-w-[360px] h-auto object-contain shadow-lg" onerror="this.src='https://placehold.co/400x560/e2e8f0/64748b?text=Poster+2'">
@@ -789,6 +789,15 @@
 
                     <!-- 3. AI 辅助视频展示 -->
                     <div class="w-full max-w-4xl mx-auto rounded-3xl overflow-hidden aspect-video relative flex flex-col items-center justify-center group/video bg-[#111] cursor-none interactive-photo-zone shadow-2xl mb-12">
+                        <video
+                            class="absolute inset-0 w-full h-full object-cover"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                        >
+        <source src="video.mp4" type="video/mp4" />
+    </video>
                         <div class="absolute inset-0 bg-gradient-to-br from-[#2a3040] to-[#1a1c23] opacity-80 transition-opacity duration-500 group-hover/video:opacity-40"></div>
                         <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:20px_20px] opacity-20"></div>
                         
